@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Menu</string>
+    <string-array name="items">
+        <item>Appetizer</item>
+        <item>Soup and Salad</item>
+        <item>Rolls</item>
+    </string-array>
+
+    <string-array name="descriptions">
+        <item>Mini dishes.</item>
+        <item>Starter dishes.</item>
+        <item>Fish rolled up with rice.</item>
+    </string-array>
+</resources>
