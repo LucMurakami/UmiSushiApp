@@ -30,9 +30,9 @@ public class Menu extends AppCompatActivity {
         myListView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
-                Intent showDetailActivity = new Intent(getApplicationContext(), DetailActivity.class);
-                showDetailActivity.putExtra("shasha.example.com.ITEM_INDEX", i);
-                startActivity(showDetailActivity);
+                Intent showSubMenu = new Intent(getApplicationContext(), SubMenus.class);
+                showSubMenu.putExtra("shasha.example.com.ITEM_INDEX", i);
+                startActivity(showSubMenu);
             }
         });
 

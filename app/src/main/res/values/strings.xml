@@ -4,11 +4,27 @@
         <item>Appetizer</item>
         <item>Soup and Salad</item>
         <item>Rolls</item>
+        <item>Sashimi</item>
     </string-array>
 
     <string-array name="descriptions">
         <item>Mini dishes.</item>
         <item>Starter dishes.</item>
         <item>Fish rolled up with rice.</item>
+        <item>Raw fish served fresh.</item>
+    </string-array>
+
+    <string-array name="sashimi_items">
+        <item>Maguro</item>
+        <item>Sake</item>
+        <item>Uni</item>
+        <item>Ebi</item>
+    </string-array>
+
+    <string-array name="sashimi_descriptions">
+        <item>Bluefin Tuna Sashimi</item>
+        <item>Salmon Sashimi</item>
+        <item>Sea Urchin Sashimi</item>
+        <item>Shrimp Sashimi</item>
     </string-array>
 </resources>

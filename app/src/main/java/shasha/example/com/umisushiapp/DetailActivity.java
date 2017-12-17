@@ -30,6 +30,7 @@ public class DetailActivity extends AppCompatActivity {
             case 0: return R.drawable.appetizer;
             case 1: return R.drawable.soup;
             case 2: return R.drawable.roll;
+            case 3: return R.drawable.sashimi;
             default: return -1;
         }
     }
