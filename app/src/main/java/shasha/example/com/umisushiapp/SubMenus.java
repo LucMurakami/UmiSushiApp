@@ -21,20 +21,17 @@ public class SubMenus extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-
+        setContentView(R.layout.activity_menu);
 
         Intent in = getIntent();
         int index = in.getIntExtra("shasha.example.com.ITEM_INDEX", -1);
 
         if (index > -1) {
-            int selection = getSelection(index);
             int item = getItem(index);
             int description = getDescription(index);
 
-            setContentView(selection);
-
             Resources res = getResources();
-            myListView = (ListView) findViewById(R.id.myListViewSubMenu);
+            myListView = (ListView) findViewById(R.id.myListView);
             items = res.getStringArray(item);
             descriptions = res.getStringArray(description);
 
@@ -53,20 +50,6 @@ public class SubMenus extends AppCompatActivity {
         }
     }
 
-    private int getSelection(int index) {
-        switch (index) {
-            case 0:
-//                return R.layout.appetizer;
-            case 1:
-//                return R.layout.soup;
-            case 2:
-//                return R.layout.roll;
-            case 3:
-                return R.layout.sashimi;
-            default:
-                return -1;
-        }
-    }
     private int getItem(int index) {
         switch (index) {
             case 0:
