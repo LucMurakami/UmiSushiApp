@@ -88,10 +88,17 @@ public class DetailActivity extends AppCompatActivity {
     // Holds the pictures for the sashimi page.
     private int getImgSashimi(int index) {
         switch (index) {
-            case 0: return R.drawable.sashimi;
-            case 1: return R.drawable.sashimi;
-            case 2: return R.drawable.sashimi;
-            case 3: return R.drawable.sashimi;
+            case 0: return R.drawable.sashimi_bincho;
+            case 1: return R.drawable.sashimi_saba;
+            case 2: return R.drawable.sashimi_beni_sake;
+            case 3: return R.drawable.sashimi_bincho_toro;
+            case 4: return R.drawable.sashimi_maguro;
+            case 5: return R.drawable.sashimi_hamachi;
+            case 6: return R.drawable.sashimi_kampachi;
+            case 7: return R.drawable.sashimi_hotate;
+            case 8: return R.drawable.sashimi_otoro;
+            case 9: return R.drawable.sashimi_botan_ebi;
+            case 10: return R.drawable.sashimi_ikura;
             default: return -1;
         }
     }
