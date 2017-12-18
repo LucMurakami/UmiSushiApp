@@ -52,45 +52,82 @@ public class SubMenus extends AppCompatActivity {
         }
     }
 
+    // Determines which main menu item was clicked and returns the corresponding
+    // string which will be passed to the DetailActivity page using it's Intent.
     private String getIdentifier(int index) {
         switch (index) {
             case 0:
                 return "appetizer";
             case 1:
-                return "soup";
+                return "soup_salad";
             case 2:
                 return "rolls";
             case 3:
                 return "sashimi";
+            case 4:
+                return "dons";
+            case 5:
+                return "a_la_carte";
+            case 6:
+                return "lunch_set";
+            case 7:
+                return "party_set";
+            case 8:
+                return "sake_list";
             default:
                 return "";
         }
     }
 
+    // Grabs the corresponding String array from the string.xml file in the values
+    // folder to populate the items in the submenu.
     private int getItem(int index) {
         switch (index) {
             case 0:
-//                return R.layout.appetizer_items;
+                return R.array.appetizer_items;
             case 1:
-//                return R.layout.soup_items;
+                return R.array.soup_salad_items;
             case 2:
-//                return R.layout.roll_items;
+                return R.array.rolls_items;
             case 3:
                 return R.array.sashimi_items;
+            case 4:
+//                return R.array.dons_items;
+            case 5:
+//                return R.array.a_la_carte_items;
+            case 6:
+//                return R.array.lunch_set_items;
+            case 7:
+//                return R.array.party_set_items;
+            case 8:
+//                return R.array.sake_list_items;
             default:
                 return -1;
         }
     }
+
+    // Grabs the corresponding String array from the string.xml file in the values
+    // folder to populate the descriptions in the submenu.
     private int getDescription(int index) {
         switch (index) {
             case 0:
-//                return R.layout.appetizer_descriptions;
+                return R.array.appetizer_descriptions;
             case 1:
-//                return R.layout.soup_descriptions;
+                return R.array.soup_salad_descriptions;
             case 2:
-//                return R.layout.roll_descriptions;
+                return R.array.rolls_descriptions;
             case 3:
                 return R.array.sashimi_descriptions;
+            case 4:
+//                return R.array.dons_descriptions;
+            case 5:
+//                return R.array.a_la_carte_descriptions;
+            case 6:
+//                return R.array.lunch_set_descriptions;
+            case 7:
+//                return R.array.party_set_descriptions;
+            case 8:
+//                return R.array.sake_list_descriptions;
             default:
                 return -1;
         }
