@@ -32,7 +32,7 @@ public class DetailActivity extends AppCompatActivity {
         switch (identifier) {
             case "appetizer": return getImgAppetizer(index);
             case "soup": return getImgSoup(index);
-            case "roll": return getImgRoll(index);
+            case "rolls": return getImgRoll(index);
             case "sashimi": return getImgSashimi(index);
             default: return -1;
         }
@@ -40,28 +40,36 @@ public class DetailActivity extends AppCompatActivity {
 
     private int getImgAppetizer(int index) {
         switch (index) {
-            case 0: return R.drawable.appetizer;
-            case 1: return R.drawable.appetizer;
-            case 2: return R.drawable.appetizer;
-            case 3: return R.drawable.appetizer;
+            case 0: return R.drawable.appetizer_agedashi_tofu;
+            case 1: return R.drawable.appetizer_ebi_sunomono;
+            case 2: return R.drawable.appetizer_chawanmushi;
+            case 3: return R.drawable.appetizer_gomaae;
+            case 4: return R.drawable.appetizer_chicken_karaage;
+            case 5: return R.drawable.appetizer_takoyaki;
             default: return -1;
         }
     }
     private int getImgSoup(int index) {
         switch (index) {
-            case 0: return R.drawable.soup;
-            case 1: return R.drawable.soup;
-            case 2: return R.drawable.soup;
-            case 3: return R.drawable.soup;
+            case 0: return R.drawable.soup_veggie_miso;
+            case 1: return R.drawable.soup_clam_miso;
+            case 2: return R.drawable.soup_shiromiso_tonjiru;
+            case 3: return R.drawable.salad_ahi_tuna;
+            case 4: return R.drawable.salad_kani;
+            case 5: return R.drawable.salad_salmon_poke;
             default: return -1;
         }
     }
     private int getImgRoll(int index) {
         switch (index) {
-            case 0: return R.drawable.roll;
-            case 1: return R.drawable.roll;
-            case 2: return R.drawable.roll;
-            case 3: return R.drawable.roll;
+            case 0: return R.drawable.roll_avocado;
+            case 1: return R.drawable.roll_calamari;
+            case 2: return R.drawable.roll_tuna;
+            case 3: return R.drawable.roll_rainbow;
+            case 4: return R.drawable.roll_sunset;
+            case 5: return R.drawable.roll_philadelphia;
+            case 6: return R.drawable.roll_volcano;
+            case 7: return R.drawable.roll_assorted_battera;
             default: return -1;
         }
     }
