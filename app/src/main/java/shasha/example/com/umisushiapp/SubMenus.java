@@ -14,9 +14,9 @@ import android.widget.ListView;
 
 public class SubMenus extends AppCompatActivity {
 
-    ListView myListView2;
-    String[] items2;
-    String[] descriptions2;
+    ListView myListView;
+    String[] items;
+    String[] descriptions;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -31,15 +31,15 @@ public class SubMenus extends AppCompatActivity {
             int description = getDescription(index);
             final String identifier = getIdentifier(index);
 
-            Resources res2 = getResources();
-            myListView2 = (ListView) findViewById(R.id.myListViewSubMenu);
-            items2 = res2.getStringArray(item);
-            descriptions2 = res2.getStringArray(description);
+            Resources res = getResources();
+            myListView = (ListView) findViewById(R.id.myListViewSubMenu);
+            items = res.getStringArray(item);
+            descriptions = res.getStringArray(description);
 
-            ItemAdapter itemAdapter2 = new ItemAdapter(this, items2, descriptions2);
-            myListView2.setAdapter(itemAdapter2);
+            ItemAdapter itemAdapter = new ItemAdapter(this, items, descriptions);
+            myListView.setAdapter(itemAdapter);
 
-            myListView2.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+            myListView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
                 @Override
                 public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
                     Intent showDetailActivity = new Intent(getApplicationContext(), DetailActivity.class);
