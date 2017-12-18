@@ -1,34 +1,118 @@
 <resources>
     <string name="app_name">Menu</string>
-    <string-array name="items">
+    <string-array name="main_menu_items">
         <item>Appetizer</item>
         <item>Soup and Salad</item>
         <item>Rolls</item>
         <item>Sashimi</item>
         <item>Dons</item>
         <item>A La Carté</item>
+        <item>Lunch Set</item>
+        <item>Party Set</item>
+        <item>Sake List</item>
     </string-array>
 
-    <string-array name="descriptions">
-        <item>Mini dishes.</item>
-        <item>Starter dishes.</item>
-        <item>Fish rolled up with rice.</item>
-        <item>Raw fish served fresh.</item>
+    <string-array name="main_menu_descriptions">
+        <item>Mini Dishes.</item>
+        <item>Starter Dishes.</item>
+        <item>Fish Rolled Up with Rice.</item>
+        <item>Raw Fish Served Fresh.</item>
         <item>Meat on Rice. Served with Miso Soup.</item>
-        <item>Individual Dishes</item>
+        <item>Individual Dishes.</item>
+        <item>Set Lunch Box.</item>
+        <item>Take Out Party Trays.</item>
+        <item>A Wide Selection of Fine Sake.</item>
+    </string-array>
+
+    <string-array name="appetizer_items">
+        <item>Something</item>
+    </string-array>
+
+    <string-array name="appetizer_descriptions">
+        <item>Something</item>
+    </string-array>
+
+    <string-array name="soup_salad_items">
+        <item>Something</item>
+    </string-array>
+
+    <string-array name="soup_salad_descriptions">
+        <item>Something</item>
+    </string-array>
+
+    <string-array name="rolls_items">
+        <item>Something</item>
+    </string-array>
+
+    <string-array name="rolls_descriptions">
+        <item>Something</item>
     </string-array>
 
     <string-array name="sashimi_items">
+        <item>Bincho</item>
+        <item>Saba</item>
+        <item>Beni Sake</item>
+        <item>Bincho Toro</item>
         <item>Maguro</item>
-        <item>Sake</item>
-        <item>Uni</item>
-        <item>Ebi</item>
+        <item>Hamachi</item>
+        <item>Kanpachi</item>
+        <item>Hotate</item>
+        <item>Ōtoro</item>
+        <item>Botan Ebi</item>
+        <item>Ikura</item>
     </string-array>
 
     <string-array name="sashimi_descriptions">
-        <item>Bluefin Tuna Sashimi</item>
-        <item>Salmon Sashimi</item>
-        <item>Sea Urchin Sashimi</item>
-        <item>Shrimp Sashimi</item>
+        <item>Albacore</item>
+        <item>Mackerel</item>
+        <item>Sockeye Salmon</item>
+        <item>Albacore Belly</item>
+        <item>Red Tuna</item>
+        <item>Yellow Tail</item>
+        <item>Amberjack</item>
+        <item>Hokkaido Scallop</item>
+        <item>Bluefin Tuna Belly</item>
+        <item>BC Spot Prawn</item>
+        <item>Salmon Roe</item>
+    </string-array>
+
+    <string-array name="dons_items">
+        <item>Something</item>
+    </string-array>
+
+    <string-array name="dons_descriptions">
+        <item>Something</item>
+    </string-array>
+
+    <string-array name="a_la_carte_items">
+        <item>Something</item>
+    </string-array>
+
+    <string-array name="a_la_carte_descriptions">
+        <item>Something</item>
+    </string-array>
+
+    <string-array name="lunch_set_items">
+        <item>Something</item>
+    </string-array>
+
+    <string-array name="lunch_set_descriptions">
+        <item>Something</item>
+    </string-array>
+
+    <string-array name="party_set_items">
+        <item>Something</item>
+    </string-array>
+
+    <string-array name="party_set_descriptions">
+        <item>Something</item>
+    </string-array>
+
+    <string-array name="sake_list_items">
+        <item>Something</item>
+    </string-array>
+
+    <string-array name="sake_list_descriptions">
+        <item>Something</item>
     </string-array>
 </resources>

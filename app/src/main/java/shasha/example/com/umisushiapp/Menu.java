@@ -21,8 +21,8 @@ public class Menu extends AppCompatActivity {
 
         Resources res = getResources();
         myListView = (ListView) findViewById(R.id.myListView);
-        items = res.getStringArray(R.array.items);
-        descriptions = res.getStringArray(R.array.descriptions);
+        items = res.getStringArray(R.array.main_menu_items);
+        descriptions = res.getStringArray(R.array.main_menu_descriptions);
 
         ItemAdapter itemAdapter = new ItemAdapter(this, items, descriptions);
         myListView.setAdapter(itemAdapter);
