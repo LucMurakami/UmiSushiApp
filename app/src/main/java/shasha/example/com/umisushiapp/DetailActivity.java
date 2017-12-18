@@ -1,35 +1,43 @@
 package shasha.example.com.umisushiapp;
 
 import android.content.Intent;
+import android.content.res.Resources;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.Display;
 import android.widget.ImageView;
+import android.widget.ListView;
+import android.widget.TextView;
 
 public class DetailActivity extends AppCompatActivity {
+
+    String[] descriptions;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_detail);
 
+        Resources res = getResources();
         Intent in = getIntent();
         int index = in.getIntExtra("shasha.example.com.ITEM_INDEX", -1);
         String identifier = in.getStringExtra("shasha.example.com.ITEM_IDENTIFIER");
 
-
         if (index > -1) {
-            int pic = getIdentifier(identifier, index);
+            int pic = getImgIdentifier(identifier, index);
             ImageView img = (ImageView) findViewById(R.id.imageView);
             scaleImg(img, pic);
+            descriptions = res.getStringArray(getDescriptionIdentifier(identifier, index));
+            TextView description = (TextView) findViewById(R.id.textViewDescription);
+            description.setText(descriptions[index]);
         }
     }
 
     // Selects the right switch statement using the identifier passed in through
-    // the Intent.
-    private int getIdentifier(String identifier, int index) {
+    // the Intent to display the correct image.
+    private int getImgIdentifier(String identifier, int index) {
         switch (identifier) {
             case "appetizer": return getImgAppetizer(index);
             case "soup_salad": return getImgSoupSalad(index);
@@ -88,7 +96,7 @@ public class DetailActivity extends AppCompatActivity {
     // Holds the pictures for the sashimi page.
     private int getImgSashimi(int index) {
         switch (index) {
-            case 0: return R.drawable.sashimi_bincho;
+            case 0: return R.array.sashimi_full_descriptions;
             case 1: return R.drawable.sashimi_saba;
             case 2: return R.drawable.sashimi_beni_sake;
             case 3: return R.drawable.sashimi_bincho_toro;
@@ -154,6 +162,23 @@ public class DetailActivity extends AppCompatActivity {
 //            case 1: return R.drawable.sake_list;
 //            case 2: return R.drawable.sake_list;
 //            case 3: return R.drawable.sake_list;
+            default: return -1;
+        }
+    }
+
+    // Selects the right switch statement using the identifier passed in through
+    // the Intent to populate the description field.
+    private int getDescriptionIdentifier(String identifier, int index) {
+        switch (identifier) {
+//            case "appetizer": return getDescAppetizer(index);
+//            case "soup_salad": return getDescSoupSalad(index);
+//            case "rolls": return getDescRoll(index);
+            case "sashimi": return R.array.sashimi_full_descriptions;
+//            case "dons": return getImgDons(index);
+//            case "a_la_cart": return getImgALaCart(index);
+//            case "lunch_set": return getImgLunchSet(index);
+//            case "party_set": return getImgPartySet(index);
+//            case "sake_list": return getImgSakeList(index);
             default: return -1;
         }
     }

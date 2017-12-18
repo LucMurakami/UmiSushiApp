@@ -75,6 +75,20 @@
         <item>BC Spot Prawn</item>
         <item>Salmon Roe</item>
     </string-array>
+    
+    <string-array name="sashimi_full_descriptions">
+        <item>Something nice to say about BINCHOOOO</item>
+        <item>Something nice to say about SAAAABAAA</item>
+        <item>Something nice to say about BENIII SAKE</item>
+        <item>Something nice to say about BNICHOOOO TOOOOOOORO</item>
+        <item>Something nice to say about MAAAGUROOOOO</item>
+        <item>Something nice to say about HAMAAAAAACHI</item>
+        <item>Something nice to say about KANNNNNPACHIII</item>
+        <item>Something nice to say about HOOOOTATEEEE</item>
+        <item>Something nice to say about OOOOOOOOOOTOROOO</item>
+        <item>Something nice to say about BOTANNNNN EEEEEEEBI</item>
+        <item>Something nice to say about IIIIIKURAAAA</item>
+    </string-array>
 
     <string-array name="dons_items">
         <item>Something</item>
