@@ -17,19 +17,59 @@ public class DetailActivity extends AppCompatActivity {
 
         Intent in = getIntent();
         int index = in.getIntExtra("shasha.example.com.ITEM_INDEX", -1);
+        String identifier = in.getStringExtra("shasha.example.com.ITEM_IDENTIFIER");
+
+
 
         if (index > -1) {
-            int pic = getImg(index);
+            int pic = getIdentifier(identifier, index);
             ImageView img = (ImageView) findViewById(R.id.imageView);
             scaleImg(img, pic);
         }
     }
 
-    private int getImg(int index) {
+    private int getIdentifier(String identifier, int index) {
+        switch (identifier) {
+            case "appetizer": return getImgAppetizer(index);
+            case "soup": return getImgSoup(index);
+            case "roll": return getImgRoll(index);
+            case "sashimi": return getImgSashimi(index);
+            default: return -1;
+        }
+    }
+
+    private int getImgAppetizer(int index) {
         switch (index) {
             case 0: return R.drawable.appetizer;
+            case 1: return R.drawable.appetizer;
+            case 2: return R.drawable.appetizer;
+            case 3: return R.drawable.appetizer;
+            default: return -1;
+        }
+    }
+    private int getImgSoup(int index) {
+        switch (index) {
+            case 0: return R.drawable.soup;
             case 1: return R.drawable.soup;
+            case 2: return R.drawable.soup;
+            case 3: return R.drawable.soup;
+            default: return -1;
+        }
+    }
+    private int getImgRoll(int index) {
+        switch (index) {
+            case 0: return R.drawable.roll;
+            case 1: return R.drawable.roll;
             case 2: return R.drawable.roll;
+            case 3: return R.drawable.roll;
+            default: return -1;
+        }
+    }
+    private int getImgSashimi(int index) {
+        switch (index) {
+            case 0: return R.drawable.sashimi;
+            case 1: return R.drawable.sashimi;
+            case 2: return R.drawable.sashimi;
             case 3: return R.drawable.sashimi;
             default: return -1;
         }

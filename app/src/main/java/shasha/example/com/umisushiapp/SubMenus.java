@@ -29,6 +29,7 @@ public class SubMenus extends AppCompatActivity {
         if (index > -1) {
             int item = getItem(index);
             int description = getDescription(index);
+            final String identifier = getIdentifier(index);
 
             Resources res2 = getResources();
             myListView2 = (ListView) findViewById(R.id.myListViewSubMenu);
@@ -42,11 +43,27 @@ public class SubMenus extends AppCompatActivity {
                 @Override
                 public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
                     Intent showDetailActivity = new Intent(getApplicationContext(), DetailActivity.class);
+                    showDetailActivity.putExtra("shasha.example.com.ITEM_IDENTIFIER", "" + identifier);
                     showDetailActivity.putExtra("shasha.example.com.ITEM_INDEX", i);
                     startActivity(showDetailActivity);
                 }
             }
             );
+        }
+    }
+
+    private String getIdentifier(int index) {
+        switch (index) {
+            case 0:
+                return "appetizer";
+            case 1:
+                return "soup";
+            case 2:
+                return "rolls";
+            case 3:
+                return "sashimi";
+            default:
+                return "";
         }
     }
 
