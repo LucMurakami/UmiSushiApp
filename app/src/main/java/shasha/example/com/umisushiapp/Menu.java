@@ -21,8 +21,8 @@ public class Menu extends AppCompatActivity {
 
         Resources res = getResources();
         myListView = (ListView) findViewById(R.id.myListView);
-        items = res.getStringArray(R.array.items);
-        descriptions = res.getStringArray(R.array.descriptions);
+        items = res.getStringArray(R.array.main_menu_items);
+        descriptions = res.getStringArray(R.array.main_menu_descriptions);
 
         ItemAdapter itemAdapter = new ItemAdapter(this, items, descriptions);
         myListView.setAdapter(itemAdapter);
@@ -30,9 +30,9 @@ public class Menu extends AppCompatActivity {
         myListView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
-                Intent showDetailActivity = new Intent(getApplicationContext(), DetailActivity.class);
-                showDetailActivity.putExtra("shasha.example.com.ITEM_INDEX", i);
-                startActivity(showDetailActivity);
+                Intent showSubMenu = new Intent(getApplicationContext(), SubMenus.class);
+                showSubMenu.putExtra("shasha.example.com.ITEM_INDEX", i);
+                startActivity(showSubMenu);
             }
         });
 
