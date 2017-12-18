@@ -14,14 +14,14 @@ import android.widget.ListView;
 
 public class SubMenus extends AppCompatActivity {
 
-    ListView myListView;
-    String[] items;
-    String[] descriptions;
+    ListView myListView2;
+    String[] items2;
+    String[] descriptions2;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_menu);
+        setContentView(R.layout.sub_menu);
 
         Intent in = getIntent();
         int index = in.getIntExtra("shasha.example.com.ITEM_INDEX", -1);
@@ -30,15 +30,15 @@ public class SubMenus extends AppCompatActivity {
             int item = getItem(index);
             int description = getDescription(index);
 
-            Resources res = getResources();
-            myListView = (ListView) findViewById(R.id.myListView);
-            items = res.getStringArray(item);
-            descriptions = res.getStringArray(description);
+            Resources res2 = getResources();
+            myListView2 = (ListView) findViewById(R.id.myListViewSubMenu);
+            items2 = res2.getStringArray(item);
+            descriptions2 = res2.getStringArray(description);
 
-            ItemAdapter itemAdapter = new ItemAdapter(this, items, descriptions);
-            myListView.setAdapter(itemAdapter);
+            ItemAdapter itemAdapter2 = new ItemAdapter(this, items2, descriptions2);
+            myListView2.setAdapter(itemAdapter2);
 
-            myListView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+            myListView2.setOnItemClickListener(new AdapterView.OnItemClickListener() {
                 @Override
                 public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
                     Intent showDetailActivity = new Intent(getApplicationContext(), DetailActivity.class);
