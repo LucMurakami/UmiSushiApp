@@ -96,16 +96,17 @@ public class DetailActivity extends AppCompatActivity {
     // Holds the pictures for the sashimi page.
     private int getImgSashimi(int index) {
         switch (index) {
-            case 0: return R.drawable.sashimi_saba;
-            case 1: return R.drawable.sashimi_beni_sake;
-            case 2: return R.drawable.sashimi_bincho_toro;
-            case 3: return R.drawable.sashimi_maguro;
-            case 4: return R.drawable.sashimi_hamachi;
-            case 5: return R.drawable.sashimi_kampachi;
-            case 6: return R.drawable.sashimi_hotate;
-            case 7: return R.drawable.sashimi_otoro;
-            case 8: return R.drawable.sashimi_botan_ebi;
-            case 9: return R.drawable.sashimi_ikura;
+            case 0: return R.drawable.sashimi_bincho;
+            case 1: return R.drawable.sashimi_saba;
+            case 2: return R.drawable.sashimi_beni_sake;
+            case 3: return R.drawable.sashimi_bincho_toro;
+            case 4: return R.drawable.sashimi_maguro;
+            case 5: return R.drawable.sashimi_hamachi;
+            case 6: return R.drawable.sashimi_kampachi;
+            case 7: return R.drawable.sashimi_hotate;
+            case 8: return R.drawable.sashimi_otoro;
+            case 9: return R.drawable.sashimi_botan_ebi;
+            case 10: return R.drawable.sashimi_ikura;
             default: return -1;
         }
     }
@@ -183,11 +184,11 @@ public class DetailActivity extends AppCompatActivity {
             case "soup_salad": return R.array.soup_salad_full_descriptions;
             case "rolls": return R.array.rolls_full_descriptions;
             case "sashimi": return R.array.sashimi_full_descriptions;
-//            case "dons": return getImgDons(index);
-//            case "a_la_cart": return getImgALaCart(index);
-//            case "lunch_set": return getImgLunchSet(index);
-//            case "party_set": return getImgPartySet(index);
-//            case "sake_list": return getImgSakeList(index);
+//            case "dons": return R.array.dons_full_descriptions;
+//            case "a_la_cart": return R.array.a_la_cart_full_descriptions;
+//            case "lunch_set": return R.array.lunch_set_full_descriptions;
+//            case "party_set": return R.array.party_set_full_descriptions;
+//            case "sake_list": return R.array.sake_list_full_descriptions;
             case "desserts": return R.array.desserts_full_descriptions;
             default: return -1;
         }
