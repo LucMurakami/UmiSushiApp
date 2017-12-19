@@ -8,7 +8,6 @@ import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.Display;
 import android.widget.ImageView;
-import android.widget.ListView;
 import android.widget.TextView;
 
 public class DetailActivity extends AppCompatActivity {
@@ -48,6 +47,7 @@ public class DetailActivity extends AppCompatActivity {
 //            case "lunch_set": return getImgLunchSet(index);
 //            case "party_set": return getImgPartySet(index);
 //            case "sake_list": return getImgSakeList(index);
+            case "desserts": return getImgDesserts(index);
             default: return -1;
         }
     }
@@ -96,17 +96,16 @@ public class DetailActivity extends AppCompatActivity {
     // Holds the pictures for the sashimi page.
     private int getImgSashimi(int index) {
         switch (index) {
-            case 0: return R.array.sashimi_full_descriptions;
-            case 1: return R.drawable.sashimi_saba;
-            case 2: return R.drawable.sashimi_beni_sake;
-            case 3: return R.drawable.sashimi_bincho_toro;
-            case 4: return R.drawable.sashimi_maguro;
-            case 5: return R.drawable.sashimi_hamachi;
-            case 6: return R.drawable.sashimi_kampachi;
-            case 7: return R.drawable.sashimi_hotate;
-            case 8: return R.drawable.sashimi_otoro;
-            case 9: return R.drawable.sashimi_botan_ebi;
-            case 10: return R.drawable.sashimi_ikura;
+            case 0: return R.drawable.sashimi_saba;
+            case 1: return R.drawable.sashimi_beni_sake;
+            case 2: return R.drawable.sashimi_bincho_toro;
+            case 3: return R.drawable.sashimi_maguro;
+            case 4: return R.drawable.sashimi_hamachi;
+            case 5: return R.drawable.sashimi_kampachi;
+            case 6: return R.drawable.sashimi_hotate;
+            case 7: return R.drawable.sashimi_otoro;
+            case 8: return R.drawable.sashimi_botan_ebi;
+            case 9: return R.drawable.sashimi_ikura;
             default: return -1;
         }
     }
@@ -166,19 +165,30 @@ public class DetailActivity extends AppCompatActivity {
         }
     }
 
+    // Holds the pictures for the desserts page.
+    private int getImgDesserts(int index) {
+        switch (index) {
+            case 0: return R.drawable.dessert_raspberry_almond_gateau;
+            case 1: return R.drawable.dessert_strawberry_cheesecake;
+            case 2: return R.drawable.dessert_matcha_mousse_cake;
+            default: return -1;
+        }
+    }
+
     // Selects the right switch statement using the identifier passed in through
     // the Intent to populate the description field.
     private int getDescriptionIdentifier(String identifier, int index) {
         switch (identifier) {
-//            case "appetizer": return getDescAppetizer(index);
-//            case "soup_salad": return getDescSoupSalad(index);
-//            case "rolls": return getDescRoll(index);
+            case "appetizer": return R.array.appetizer_full_descriptions;
+            case "soup_salad": return R.array.soup_salad_full_descriptions;
+            case "rolls": return R.array.rolls_full_descriptions;
             case "sashimi": return R.array.sashimi_full_descriptions;
 //            case "dons": return getImgDons(index);
 //            case "a_la_cart": return getImgALaCart(index);
 //            case "lunch_set": return getImgLunchSet(index);
 //            case "party_set": return getImgPartySet(index);
 //            case "sake_list": return getImgSakeList(index);
+            case "desserts": return R.array.desserts_full_descriptions;
             default: return -1;
         }
     }
