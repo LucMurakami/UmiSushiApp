@@ -25,27 +25,60 @@
     </string-array>
 
     <string-array name="appetizer_items">
-        <item>Something</item>
+        <item>Agedashi Tofu</item>
+        <item>Ebi Sunomono</item>
+        <item>Chawanmushi</item>
+        <item>Gomaae</item>
+        <item>Chicken Karaage</item>
+        <item>Takoyaki</item>
     </string-array>
 
     <string-array name="appetizer_descriptions">
-        <item>Something</item>
+        <item>Fried tofu served in sauce</item>
+        <item>Prawns and sliced veggies served in a vinaigrette sauce</item>
+        <item>Veggies and shiitake mushrooms in an egg custard</item>
+        <item>Spinach and peanut butter medley</item>
+        <item>Fried chicken</item>
+        <item>Octopus in a dough-battered grilled ball</item>
     </string-array>
 
     <string-array name="soup_salad_items">
-        <item>Something</item>
+        <item>Veggie Miso Soup</item>
+        <item>Clam Miso Soup</item>
+        <item>Pork and White Miso Soup</item>
+        <item>Ahi Tuna Salad</item>
+        <item>Kani Salad</item>
+        <item>Salmon Poke Bowl</item>
     </string-array>
 
     <string-array name="soup_salad_descriptions">
-        <item>Something</item>
+        <item>Vegetarian miso soup</item>
+        <item>Clam miso soup</item>
+        <item>Pork belly miso soup</item>
+        <item>Seared tuna salad</item>
+        <item>Crab salad</item>
+        <item>Salmon poke in a sweet and tangy sauce on rice</item>
     </string-array>
 
     <string-array name="rolls_items">
-        <item>Something</item>
+        <item>Avocado Roll</item>
+        <item>Calamari Roll</item>
+        <item>Tuna Roll</item>
+        <item>Rainbow Roll</item>
+        <item>Sunset Roll</item>
+        <item>Philadelphia Roll</item>
+        <item>Volcano Roll</item>
+        <item>Assorted Battera</item>
     </string-array>
 
     <string-array name="rolls_descriptions">
-        <item>Something</item>
+        <item>Avocado and tuna roll with spicy sauce</item>
+        <item>Calamari and salmon deep-fried roll</item>
+        <item>Spicy tuna roll</item>
+        <item>Salmon, seaweed, and cucumber roll</item>
+        <item>Salmon, tuna, red snapper, and cucumber roll</item>
+        <item>Salmon, cream cheese, and avocado roll</item>
+        <item>Assorted fish battera pressed sushi</item>
     </string-array>
 
     <string-array name="sashimi_items">
