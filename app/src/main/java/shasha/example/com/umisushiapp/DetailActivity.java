@@ -8,7 +8,6 @@ import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.Display;
 import android.widget.ImageView;
-import android.widget.ListView;
 import android.widget.TextView;
 
 public class DetailActivity extends AppCompatActivity {
@@ -48,6 +47,7 @@ public class DetailActivity extends AppCompatActivity {
 //            case "lunch_set": return getImgLunchSet(index);
 //            case "party_set": return getImgPartySet(index);
 //            case "sake_list": return getImgSakeList(index);
+            case "desserts": return getImgDesserts(index);
             default: return -1;
         }
     }
@@ -166,19 +166,30 @@ public class DetailActivity extends AppCompatActivity {
         }
     }
 
+    // Holds the pictures for the desserts page.
+    private int getImgDesserts(int index) {
+        switch (index) {
+            case 0: return R.drawable.dessert_raspberry_almond_gateau;
+            case 1: return R.drawable.dessert_strawberry_cheesecake;
+            case 2: return R.drawable.dessert_matcha_mousse_cake;
+            default: return -1;
+        }
+    }
+
     // Selects the right switch statement using the identifier passed in through
     // the Intent to populate the description field.
     private int getDescriptionIdentifier(String identifier, int index) {
         switch (identifier) {
-//            case "appetizer": return R.array.sashimi_full_descriptions;
-//            case "soup_salad": return R.array.sashimi_full_descriptions;
-//            case "rolls": return R.array.sashimi_full_descriptions;
+            case "appetizer": return R.array.appetizer_full_descriptions;
+            case "soup_salad": return R.array.soup_salad_full_descriptions;
+            case "rolls": return R.array.rolls_full_descriptions;
             case "sashimi": return R.array.sashimi_full_descriptions;
-//            case "dons": return R.array.sashimi_full_descriptions;
-//            case "a_la_cart": return R.array.sashimi_full_descriptions;
-//            case "lunch_set": return R.array.sashimi_full_descriptions;
-//            case "party_set": return R.array.sashimi_full_descriptions;
-//            case "sake_list": return R.array.sashimi_full_descriptions;
+//            case "dons": return R.array.dons_full_descriptions;
+//            case "a_la_cart": return R.array.a_la_cart_full_descriptions;
+//            case "lunch_set": return R.array.lunch_set_full_descriptions;
+//            case "party_set": return R.array.party_set_full_descriptions;
+//            case "sake_list": return R.array.sake_list_full_descriptions;
+            case "desserts": return R.array.desserts_full_descriptions;
             default: return -1;
         }
     }

@@ -10,6 +10,7 @@
         <item>Lunch Set</item>
         <item>Party Set</item>
         <item>Sake List</item>
+        <item>Desserts</item>
     </string-array>
 
     <string-array name="main_menu_descriptions">
@@ -22,6 +23,7 @@
         <item>Set Lunch Box.</item>
         <item>Take Out Party Trays.</item>
         <item>A Wide Selection of Fine Sake.</item>
+        <item>Delicate treats to end your meal.</item>
     </string-array>
 
     <string-array name="appetizer_items">
@@ -42,6 +44,15 @@
         <item>Octopus in a dough-battered grilled ball</item>
     </string-array>
 
+    <string-array name="appetizer_full_descriptions">
+        <item>Something nice to say about AGEDASHI TOFU</item>
+        <item>Something nice to say about SUNOMONO</item>
+        <item>Something nice to say about CHAWANMUSHI</item>
+        <item>Something nice to say about GOMAAE</item>
+        <item>Something nice to say about CHICKEN KARAAGE</item>
+        <item>Something nice to say about TAKOYAKI</item>
+    </string-array>
+
     <string-array name="soup_salad_items">
         <item>Veggie Miso Soup</item>
         <item>Clam Miso Soup</item>
@@ -58,6 +69,15 @@
         <item>Seared tuna salad</item>
         <item>Crab salad</item>
         <item>Salmon poke in a sweet and tangy sauce on rice</item>
+    </string-array>
+
+    <string-array name="soup_salad_full_descriptions">
+        <item>Something nice to say about VEGGIE MISO SOUP</item>
+        <item>Something nice to say about CLAM MISO SOUP</item>
+        <item>Something nice to say about PORK AND WHITE MISO SOUP</item>
+        <item>Something nice to say about AHI TUNA SALAD</item>
+        <item>Something nice to say about KANI SALAD</item>
+        <item>Something nice to say about SALMON POKE BOWL</item>
     </string-array>
 
     <string-array name="rolls_items">
@@ -79,6 +99,16 @@
         <item>Salmon, tuna, red snapper, and cucumber roll</item>
         <item>Salmon, cream cheese, and avocado roll</item>
         <item>Assorted fish battera pressed sushi</item>
+    </string-array>
+
+    <string-array name="rolls_full_descriptions">
+        <item>Something nice to say about AVOCADO ROLL</item>
+        <item>Something nice to say about CALAMARI ROLL</item>
+        <item>Something nice to say about TUNA ROLL</item>
+        <item>Something nice to say about RAINBOW ROLL</item>
+        <item>Something nice to say about SUNSET ROLL</item>
+        <item>Something nice to say about PHILADELPHIA ROLL</item>
+        <item>Something nice to say about ASSORTED BATTERA</item>
     </string-array>
 
     <string-array name="sashimi_items">
@@ -162,4 +192,23 @@
     <string-array name="sake_list_descriptions">
         <item>Something</item>
     </string-array>
+
+    <string-array name="desserts_items">
+        <item>Raspberry Almond Gateau</item>
+        <item>Strawberry Cheesecake</item>
+        <item>Matcha Mousse Cake</item>
+    </string-array>
+
+    <string-array name="desserts_descriptions">
+        <item>Raspberry Almond Gateau</item>
+        <item>Strawberry Cheesecake</item>
+        <item>Matcha Mousse Cake</item>
+    </string-array>
+
+    <string-array name="desserts_full_descriptions">
+        <item>Something nice to say about RASPBPERRY ALMOND GATEAU</item>
+        <item>Something nice to say about STRAWBERRY CHEESECAKE</item>
+        <item>Something nice to say about MATCHAAAAAA MOUSSE CAKE</item>
+    </string-array>
+
 </resources>
