@@ -96,7 +96,7 @@ public class DetailActivity extends AppCompatActivity {
     // Holds the pictures for the sashimi page.
     private int getImgSashimi(int index) {
         switch (index) {
-            case 0: return R.array.sashimi_full_descriptions;
+            case 0: return R.drawable.sashimi_bincho;
             case 1: return R.drawable.sashimi_saba;
             case 2: return R.drawable.sashimi_beni_sake;
             case 3: return R.drawable.sashimi_bincho_toro;
@@ -170,15 +170,15 @@ public class DetailActivity extends AppCompatActivity {
     // the Intent to populate the description field.
     private int getDescriptionIdentifier(String identifier, int index) {
         switch (identifier) {
-//            case "appetizer": return getDescAppetizer(index);
-//            case "soup_salad": return getDescSoupSalad(index);
-//            case "rolls": return getDescRoll(index);
+//            case "appetizer": return R.array.sashimi_full_descriptions;
+//            case "soup_salad": return R.array.sashimi_full_descriptions;
+//            case "rolls": return R.array.sashimi_full_descriptions;
             case "sashimi": return R.array.sashimi_full_descriptions;
-//            case "dons": return getImgDons(index);
-//            case "a_la_cart": return getImgALaCart(index);
-//            case "lunch_set": return getImgLunchSet(index);
-//            case "party_set": return getImgPartySet(index);
-//            case "sake_list": return getImgSakeList(index);
+//            case "dons": return R.array.sashimi_full_descriptions;
+//            case "a_la_cart": return R.array.sashimi_full_descriptions;
+//            case "lunch_set": return R.array.sashimi_full_descriptions;
+//            case "party_set": return R.array.sashimi_full_descriptions;
+//            case "sake_list": return R.array.sashimi_full_descriptions;
             default: return -1;
         }
     }
