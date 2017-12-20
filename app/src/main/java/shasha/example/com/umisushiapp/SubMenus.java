@@ -74,6 +74,8 @@ public class SubMenus extends AppCompatActivity {
                 return "party_set";
             case 8:
                 return "sake_list";
+            case 9:
+                return "desserts";
             default:
                 return "";
         }
@@ -101,6 +103,8 @@ public class SubMenus extends AppCompatActivity {
                 return R.array.party_set_items;
             case 8:
                 return R.array.sake_list_items;
+            case 9:
+                return R.array.desserts_items;
             default:
                 return -1;
         }
@@ -128,6 +132,8 @@ public class SubMenus extends AppCompatActivity {
                 return R.array.party_set_descriptions;
             case 8:
                 return R.array.sake_list_descriptions;
+            case 9:
+                return R.array.desserts_descriptions;
             default:
                 return -1;
         }
