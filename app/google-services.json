@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "848191782496",
+    "firebase_url": "https://umisushiapp-10e9d.firebaseio.com",
+    "project_id": "umisushiapp-10e9d",
+    "storage_bucket": "umisushiapp-10e9d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:848191782496:android:ad95b3cb42df98a8",
+        "android_client_info": {
+          "package_name": "shasha.example.com.umisushiapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "848191782496-43752q2sp1kav3avm3d8eik5e240hog6.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "shasha.example.com.umisushiapp",
+            "certificate_hash": "9f81344216b3feab23482828a6eba1edb6f82934"
+          }
+        },
+        {
+          "client_id": "848191782496-gqlvkbdigpune51ob1rjekrnm8vei9vd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAenatPlZMOBRiBB5tedda1kOFxnQ7SD-U"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "848191782496-gqlvkbdigpune51ob1rjekrnm8vei9vd.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
