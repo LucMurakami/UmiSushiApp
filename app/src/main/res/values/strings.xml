@@ -226,23 +226,63 @@
     </string-array>
 
     <string-array name="party_set_items">
-        <item>Something</item>
+        <item>Roll Tray A</item>
+        <item>Roll Tray B</item>
+        <item>Roll Tray C</item>
+        <item>Vegetarian Tray A</item>
+        <item>Vegetarian Tray B</item>
+        <item>Party Tray</item>
     </string-array>
 
     <string-array name="party_set_descriptions">
-        <item>Something</item>
+        <item>40 pieces, $42.00</item>
+        <item>69 pieces, $61.00</item>
+        <item>39 pieces, $46.00</item>
+        <item>30 pieces, $46.00</item>
+        <item>48 pieces, $60.00</item>
+        <item>Assorted, $88.00</item>
+    </string-array>
+
+    <string-array name="party_set_full_descriptions">
+        <item>Spicy Tuna Roll, California Roll, Chopped Scallop Roll,
+            Dynamite Roll, BC Roll and House Roll</item>
+        <item>Tuna Roll, Salmon Roll, Negi Toro Roll, Kappa Roll, Oshinko Roll, California Roll,
+            Spicy Tuna Roll, BC Roll, BC Roll, Dynamite Roll, Chopped Scallop Roll, House Roll,
+            and Futomaki</item>
+        <item>Futomaki, Inari Sushi, BC Roll, California Roll, Dynamite Roll,
+            Chopped Scallop Roll</item>
+        <item>Futomaki, Inari Sushi</item>
+        <item>Futomaki, Inari Sushi, Kappa Roll, Oshinko Roll, Yam Tempura Roll</item>
+        <item>Edamame, Chicken Karaage, Yakisoba, BBQ Short Rib, Prawn Tempura, Yam Tempura,
+            California Roll, BC Roll, Dynamite Roll and Chopped Scallop Roll</item>
     </string-array>
 
     <string-array name="sake_list_items">
-        <item>Something</item>
+        <item>Daiginjo</item>
+        <item>Ginjo</item>
+        <item>Junmai</item>
+        <item>Honjozo</item>
+        <item>Iroiro</item>
     </string-array>
 
     <string-array name="sake_list_descriptions">
-        <item>Something</item>
+        <item>50%, highest grade</item>
+        <item>40%, aromic, with a range of flavours</item>
+        <item>30%, full flavoured</item>
+        <item>30%, light, gentle flavour</item>
+        <item>Misfits</item>
+    </string-array>
+
+    <string-array name="sake_list_full_descriptions">
+        <item>Selections: Gold Omachi, Dassai "50"</item>
+        <item>Selections: Gokujo, Kiipon</item>
+        <item>Selections: Kagatobi Gokkan</item>
+        <item>Selections: Toji no Banshaku</item>
+        <item>Selections: Dassai Nigori, Yauemon Shuawa</item>
     </string-array>
 
     <string-array name="desserts_items">
-        <item>Raspberry Almond Gateau</item>
+        <item></item>
         <item>Strawberry Cheesecake</item>
         <item>Matcha Mousse Cake</item>
     </string-array>

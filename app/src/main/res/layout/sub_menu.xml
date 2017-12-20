@@ -8,8 +8,8 @@
 
     <ListView
         android:id="@+id/myListViewSubMenu"
-        android:layout_width="752dp"
-        android:layout_height="869dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
         android:layout_marginBottom="8dp"
         android:layout_marginTop="8dp"
         app:layout_constraintBottom_toBottomOf="parent"

@@ -46,8 +46,8 @@ public class DetailActivity extends AppCompatActivity {
             case "dons": return getImgDons(index);
 //            case "a_la_cart": return getImgALaCart(index);
 //            case "lunch_set": return getImgLunchSet(index);
-//            case "party_set": return getImgPartySet(index);
-//            case "sake_list": return getImgSakeList(index);
+            case "party_set": return getImgPartySet(index);
+            case "sake_list": return getImgSakeList(index);
             case "desserts": return getImgDesserts(index);
             default: return -1;
         }
@@ -162,10 +162,12 @@ public class DetailActivity extends AppCompatActivity {
     // Holds the pictures for the party sets page.
     private int getImgPartySet(int index) {
         switch (index) {
-//            case 0: return R.drawable.party_set;
-//            case 1: return R.drawable.party_set;
-//            case 2: return R.drawable.party_set;
-//            case 3: return R.drawable.party_set;
+            case 0: return R.drawable.party_roll_tray_a;
+            case 1: return R.drawable.party_roll_tray_b;
+            case 2: return R.drawable.party_roll_tray_c;
+            case 3: return R.drawable.party_vegetarian_tray_a;
+            case 4: return R.drawable.party_vegetarian_tray_b;
+            case 5: return R.drawable.party_party_tray;
             default: return -1;
         }
     }
@@ -173,10 +175,11 @@ public class DetailActivity extends AppCompatActivity {
     // Holds the pictures for the sake list page.
     private int getImgSakeList(int index) {
         switch (index) {
-//            case 0: return R.drawable.sake_list;
-//            case 1: return R.drawable.sake_list;
-//            case 2: return R.drawable.sake_list;
-//            case 3: return R.drawable.sake_list;
+            case 0: return R.drawable.sake_daiginjo;
+            case 1: return R.drawable.sake_ginjo;
+            case 2: return R.drawable.sake_junmai;
+            case 3: return R.drawable.sake_honjozo;
+            case 4: return R.drawable.sake_iroiro;
             default: return -1;
         }
     }
@@ -203,8 +206,8 @@ public class DetailActivity extends AppCompatActivity {
             case "dons": return R.array.dons_full_descriptions;
 //            case "a_la_cart": return R.array.a_la_cart_full_descriptions;
 //            case "lunch_set": return R.array.lunch_set_full_descriptions;
-//            case "party_set": return R.array.party_set_full_descriptions;
-//            case "sake_list": return R.array.sake_list_full_descriptions;
+            case "party_set": return R.array.party_set_full_descriptions;
+            case "sake_list": return R.array.sake_list_full_descriptions;
             case "desserts": return R.array.desserts_full_descriptions;
             default: return -1;
         }
