@@ -15,17 +15,17 @@
     </string-array>
 
     <string-array name="main_menu_descriptions">
-        <item>Mini Dishes.</item>
-        <item>Starter Dishes.</item>
-        <item>Fish Rolled Up with Rice.</item>
-        <item>Raw Fish Served Fresh.</item>
-        <item>Noodle in Savory Dashi Broth.</item>
-        <item>Meat on Rice. Served with Miso Soup.</item>
-        <item>Individual Dishes.</item>
-        <item>Set Lunch Box.</item>
-        <item>Take Out Party Trays.</item>
-        <item>A Wide Selection of Fine Sake.</item>
-        <item>Delicate treats to end your meal.</item>
+        <item>Mini Dishes</item>
+        <item>Starter Dishes</item>
+        <item>Fish Rolled Up with Rice</item>
+        <item>Raw Fish Served Fresh</item>
+        <item>Noodle in Savory Dashi Broth</item>
+        <item>Meat on Rice. Served with Miso Soup</item>
+        <item>Individual Dishes</item>
+        <item>Set Lunch Box</item>
+        <item>Take Out Party Trays</item>
+        <item>A Wide Selection of Fine Sake</item>
+        <item>Delicate treats to end your meal</item>
     </string-array>
 
     <string-array name="appetizer_items">
@@ -140,7 +140,7 @@
         <item>BC Spot Prawn</item>
         <item>Salmon Roe</item>
     </string-array>
-    
+
     <string-array name="sashimi_full_descriptions">
         <item>Something nice to say about BINCHOOOO</item>
         <item>Something nice to say about SAAAABAAA</item>
@@ -172,11 +172,11 @@
     </string-array>
 
     <string-array name="udon_full_descriptions">
-        <item>Something nice to say about chicken udon</item>
         <item>Something nice to say about beef udon</item>
+        <item>Something nice to say about chicken udon</item>
+        <item>Something nice to say about kitsune udon</item>
         <item>Something nice to say about seafood udon</item>
         <item>Something nice to say about vegetable udon</item>
-        <item>Something nice to say about kitsune udon</item>
     </string-array>
 
     <string-array name="dons_items">
@@ -210,19 +210,51 @@
     </string-array>
 
     <string-array name="a_la_carte_items">
-        <item>Something</item>
+        <item>Beef Teriyaki</item>
+        <item>Chicken Teriyaki</item>
+        <item>Mentaiko Udon</item>
+        <item>Seafood Yakisoba</item>
+        <item>Tonkatsu</item>
+        <item>Wagyu Steak</item>
     </string-array>
 
     <string-array name="a_la_carte_descriptions">
+        <item>Beef Teriyaki</item>
+        <item>Chicken Teriyaki</item>
+        <item>Mentaiko Udon</item>
+        <item>Seafood Yakisoba</item>
+        <item>Tonkatsu</item>
+        <item>Wagyu Steak</item>
+    </string-array>
+
+    <string-array name="a_la_carte_full_descriptions">
+        <item>Something</item>
+        <item>Something</item>
+        <item>Something</item>
+        <item>Something</item>
+        <item>Something</item>
         <item>Something</item>
     </string-array>
 
     <string-array name="lunch_set_items">
-        <item>Something</item>
+        <item>Set A</item>
+        <item>Set B</item>
+        <item>Set C</item>
+        <item>Set D</item>
     </string-array>
 
     <string-array name="lunch_set_descriptions">
         <item>Something</item>
+        <item>Something</item>
+        <item>Something</item>
+        <item>Something</item>
+    </string-array>
+
+    <string-array name="lunch_set_full_descriptions">
+        <item>Something nice to say about set A</item>
+        <item>Something nice to say about set B</item>
+        <item>Something nice to say about set C</item>
+        <item>Something nice to say about set D</item>
     </string-array>
 
     <string-array name="party_set_items">
@@ -282,7 +314,7 @@
     </string-array>
 
     <string-array name="desserts_items">
-        <item></item>
+        <item>Raspberry Almond Gateau</item>
         <item>Strawberry Cheesecake</item>
         <item>Matcha Mousse Cake</item>
     </string-array>

@@ -44,8 +44,8 @@ public class DetailActivity extends AppCompatActivity {
             case "sashimi": return getImgSashimi(index);
             case "udon": return getImgUdon(index);
             case "dons": return getImgDons(index);
-//            case "a_la_cart": return getImgALaCart(index);
-//            case "lunch_set": return getImgLunchSet(index);
+            case "a_la_carte": return getImgALaCarte(index);
+            case "lunch_set": return getImgLunchSet(index);
             case "party_set": return getImgPartySet(index);
             case "sake_list": return getImgSakeList(index);
             case "desserts": return getImgDesserts(index);
@@ -118,7 +118,8 @@ public class DetailActivity extends AppCompatActivity {
             case 0: return R.drawable.udon_beef;
             case 1: return R.drawable.udon_chicken;
             case 2: return R.drawable.udon_kitsune;
-            case 3: return R.drawable.udon_vegetable;
+            case 3: return R.drawable.udon_seafood;
+            case 4: return R.drawable.udon_vegetable;
             default: return -1;
         }
     }
@@ -140,10 +141,12 @@ public class DetailActivity extends AppCompatActivity {
     // Holds the pictures for the a la carte page.
     private int getImgALaCarte(int index) {
         switch (index) {
-//            case 0: return R.drawable.a_la_carte;
-//            case 1: return R.drawable.a_la_carte;
-//            case 2: return R.drawable.a_la_carte;
-//            case 3: return R.drawable.a_la_carte;
+            case 0: return R.drawable.a_la_carte_beefteriyaki;
+            case 1: return R.drawable.a_la_carte_chickenteriyaki;
+            case 2: return R.drawable.a_la_carte_mentaikoudon;
+            case 3: return R.drawable.a_la_carte_seafoodyakisoba;
+            case 4: return R.drawable.a_la_carte_tonkatsu;
+            case 5: return R.drawable.a_la_carte_wagyusteak;
             default: return -1;
         }
     }
@@ -151,10 +154,10 @@ public class DetailActivity extends AppCompatActivity {
     // Holds the pictures for the lunch sets page.
     private int getImgLunchSet(int index) {
         switch (index) {
-//            case 0: return R.drawable.lunch_set;
-//            case 1: return R.drawable.lunch_set;
-//            case 2: return R.drawable.lunch_set;
-//            case 3: return R.drawable.lunch_set;
+            case 0: return R.drawable.lunch_set_a;
+            case 1: return R.drawable.lunch_set_b;
+            case 2: return R.drawable.lunch_set_c;
+            case 3: return R.drawable.lunch_set_d;
             default: return -1;
         }
     }
@@ -204,8 +207,8 @@ public class DetailActivity extends AppCompatActivity {
             case "sashimi": return R.array.sashimi_full_descriptions;
             case "udon": return R.array.udon_full_descriptions;
             case "dons": return R.array.dons_full_descriptions;
-//            case "a_la_cart": return R.array.a_la_cart_full_descriptions;
-//            case "lunch_set": return R.array.lunch_set_full_descriptions;
+            case "a_la_carte": return R.array.a_la_carte_full_descriptions;
+            case "lunch_set": return R.array.lunch_set_full_descriptions;
             case "party_set": return R.array.party_set_full_descriptions;
             case "sake_list": return R.array.sake_list_full_descriptions;
             case "desserts": return R.array.desserts_full_descriptions;
