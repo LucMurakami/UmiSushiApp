@@ -1,5 +1,6 @@
 package shasha.example.com.umisushiapp;
 
+import android.content.ClipData;
 import android.content.Intent;
 import android.content.res.Resources;
 import android.os.Bundle;
@@ -35,6 +36,8 @@ public class SubMenus extends AppCompatActivity {
             myListView = (ListView) findViewById(R.id.myListViewSubMenu);
             items = res.getStringArray(item);
             descriptions = res.getStringArray(description);
+
+            ItemAdapter item = new ItemAdapter();
 
             ItemAdapter itemAdapter = new ItemAdapter(this, items, descriptions);
             myListView.setAdapter(itemAdapter);
