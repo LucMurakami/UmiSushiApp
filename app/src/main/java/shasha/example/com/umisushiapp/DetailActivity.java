@@ -42,7 +42,8 @@ public class DetailActivity extends AppCompatActivity {
             case "soup_salad": return getImgSoupSalad(index);
             case "rolls": return getImgRoll(index);
             case "sashimi": return getImgSashimi(index);
-//            case "dons": return getImgDons(index);
+            case "udon": return getImgUdon(index);
+            case "dons": return getImgDons(index);
 //            case "a_la_cart": return getImgALaCart(index);
 //            case "lunch_set": return getImgLunchSet(index);
             case "party_set": return getImgPartySet(index);
@@ -111,13 +112,27 @@ public class DetailActivity extends AppCompatActivity {
         }
     }
 
+    // Holds the pictures for the udon page.
+    private int getImgUdon(int index) {
+        switch (index) {
+            case 0: return R.drawable.udon_beef;
+            case 1: return R.drawable.udon_chicken;
+            case 2: return R.drawable.udon_kitsune;
+            case 3: return R.drawable.udon_vegetable;
+            default: return -1;
+        }
+    }
+
     // Holds the pictures for the dons page.
     private int getImgDons(int index) {
         switch (index) {
-//            case 0: return R.drawable.dons;
-//            case 1: return R.drawable.dons;
-//            case 2: return R.drawable.dons;
-//            case 3: return R.drawable.dons;
+            case 0: return R.drawable.don_gyudon;
+            case 1: return R.drawable.don_hokkaidon;
+            case 2: return R.drawable.don_kaisendon;
+            case 3: return R.drawable.don_katsudon;
+            case 4: return R.drawable.don_tekkadon;
+            case 5: return R.drawable.don_tendon;
+            case 6: return R.drawable.don_unadon;
             default: return -1;
         }
     }
@@ -187,7 +202,8 @@ public class DetailActivity extends AppCompatActivity {
             case "soup_salad": return R.array.soup_salad_full_descriptions;
             case "rolls": return R.array.rolls_full_descriptions;
             case "sashimi": return R.array.sashimi_full_descriptions;
-//            case "dons": return R.array.dons_full_descriptions;
+            case "udon": return R.array.udon_full_descriptions;
+            case "dons": return R.array.dons_full_descriptions;
 //            case "a_la_cart": return R.array.a_la_cart_full_descriptions;
 //            case "lunch_set": return R.array.lunch_set_full_descriptions;
             case "party_set": return R.array.party_set_full_descriptions;

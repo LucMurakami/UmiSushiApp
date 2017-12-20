@@ -65,14 +65,16 @@ public class SubMenus extends AppCompatActivity {
             case 3:
                 return "sashimi";
             case 4:
-                return "dons";
+                return "udon";
             case 5:
-                return "a_la_carte";
+                return "dons";
             case 6:
-                return "lunch_set";
+                return "a_la_carte";
             case 7:
-                return "party_set";
+                return "lunch_set";
             case 8:
+                return "party_set";
+            case 9:
                 return "sake_list";
             case 9:
                 return "desserts";
@@ -94,14 +96,16 @@ public class SubMenus extends AppCompatActivity {
             case 3:
                 return R.array.sashimi_items;
             case 4:
-                return R.array.dons_items;
+                return R.array.udon_items;
             case 5:
-                return R.array.a_la_carte_items;
+                return R.array.dons_items;
             case 6:
-                return R.array.lunch_set_items;
+                return R.array.a_la_carte_items;
             case 7:
-                return R.array.party_set_items;
+                return R.array.lunch_set_items;
             case 8:
+                return R.array.party_set_items;
+            case 9:
                 return R.array.sake_list_items;
             case 9:
                 return R.array.desserts_items;
@@ -123,14 +127,16 @@ public class SubMenus extends AppCompatActivity {
             case 3:
                 return R.array.sashimi_descriptions;
             case 4:
-                return R.array.dons_descriptions;
+                return R.array.udon_descriptions;
             case 5:
-                return R.array.a_la_carte_descriptions;
+                return R.array.dons_descriptions;
             case 6:
-                return R.array.lunch_set_descriptions;
+                return R.array.a_la_carte_descriptions;
             case 7:
-                return R.array.party_set_descriptions;
+                return R.array.lunch_set_descriptions;
             case 8:
+                return R.array.party_set_descriptions;
+            case 9:
                 return R.array.sake_list_descriptions;
             case 9:
                 return R.array.desserts_descriptions;

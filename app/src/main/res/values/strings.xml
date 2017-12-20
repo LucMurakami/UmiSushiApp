@@ -5,6 +5,7 @@
         <item>Soup and Salad</item>
         <item>Rolls</item>
         <item>Sashimi</item>
+        <item>Udon</item>
         <item>Dons</item>
         <item>A La Carté</item>
         <item>Lunch Set</item>
@@ -18,6 +19,7 @@
         <item>Starter Dishes.</item>
         <item>Fish Rolled Up with Rice.</item>
         <item>Raw Fish Served Fresh.</item>
+        <item>Noodle in Savory Dashi Broth.</item>
         <item>Meat on Rice. Served with Miso Soup.</item>
         <item>Individual Dishes.</item>
         <item>Set Lunch Box.</item>
@@ -153,12 +155,58 @@
         <item>Something nice to say about IIIIIKURAAAA</item>
     </string-array>
 
+    <string-array name="udon_items">
+        <item>Beef</item>
+        <item>Chicken</item>
+        <item>Kitsune</item>
+        <item>Seafood</item>
+        <item>Vegetable</item>
+    </string-array>
+
+    <string-array name="udon_descriptions">
+        <item>Sliced beef</item>
+        <item>Chicken</item>
+        <item>Aburaage</item>
+        <item>Assorted seafood</item>
+        <item>Vegetables</item>
+    </string-array>
+
+    <string-array name="udon_full_descriptions">
+        <item>Something nice to say about chicken udon</item>
+        <item>Something nice to say about beef udon</item>
+        <item>Something nice to say about seafood udon</item>
+        <item>Something nice to say about vegetable udon</item>
+        <item>Something nice to say about kitsune udon</item>
+    </string-array>
+
     <string-array name="dons_items">
-        <item>Something</item>
+        <item>Gyudon</item>
+        <item>Hokkaidon</item>
+        <item>Kaisendon</item>
+        <item>Katsudon</item>
+        <item>Tekkadon</item>
+        <item>Tendon</item>
+        <item>Unadon</item>
     </string-array>
 
     <string-array name="dons_descriptions">
-        <item>Something</item>
+        <item>Beef and onion simmered in a mildly sweet sauce</item>
+        <item>Thinly sliced raw salmon</item>
+        <item>Thinly sliced assorted seafood and sashimi</item>
+        <item>Tonkatsu, breaded deep fried pork cutlet, with egg</item>
+        <item>Thinly sliced raw tuna</item>
+        <item>Tempura, deep fried prawn and vegetables</item>
+        <item>Unagi, grilled eel</item>
+    </string-array>
+
+    <string-array name="dons_full_descriptions">
+        <item>Something nice to say about gyudon</item>
+        <item>Something nice to say about hokkaidon</item>
+        <item>Something nice to say about kaisendon</item>
+        <item>Something nice to say about katsudon</item>
+        <item>Something nice to say about tekkadon</item>
+        <item>Something nice to say about tendon</item>
+        <item>Something nice to say about unadon</item>
     </string-array>
 
     <string-array name="a_la_carte_items">
