@@ -17,6 +17,9 @@ public class ItemAdapter extends BaseAdapter {
     String[] items;
     String[] descriptions;
 
+    public ItemAdapter() {
+    }
+
     public ItemAdapter(Context c, String[] items, String[] descriptions) {
         this.items = items;
         this.descriptions = descriptions;
