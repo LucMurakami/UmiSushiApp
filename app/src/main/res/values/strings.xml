@@ -1,51 +1,117 @@
 <resources>
     <string name="app_name">Menu</string>
+    <string name="slogan">Sushi fresh from the ocean.</string>
     <string-array name="main_menu_items">
         <item>Appetizer</item>
         <item>Soup and Salad</item>
         <item>Rolls</item>
         <item>Sashimi</item>
+        <item>Udon</item>
         <item>Dons</item>
         <item>A La Carté</item>
         <item>Lunch Set</item>
         <item>Party Set</item>
         <item>Sake List</item>
+        <item>Desserts</item>
     </string-array>
 
     <string-array name="main_menu_descriptions">
-        <item>Mini Dishes.</item>
-        <item>Starter Dishes.</item>
-        <item>Fish Rolled Up with Rice.</item>
-        <item>Raw Fish Served Fresh.</item>
-        <item>Meat on Rice. Served with Miso Soup.</item>
-        <item>Individual Dishes.</item>
-        <item>Set Lunch Box.</item>
-        <item>Take Out Party Trays.</item>
-        <item>A Wide Selection of Fine Sake.</item>
+        <item>Mini Dishes</item>
+        <item>Starter Dishes</item>
+        <item>Fish Rolled Up with Rice</item>
+        <item>Raw Fish Served Fresh</item>
+        <item>Noodle in Savory Dashi Broth</item>
+        <item>Meat on Rice. Served with Miso Soup</item>
+        <item>Individual Dishes</item>
+        <item>Set Lunch Box</item>
+        <item>Take Out Party Trays</item>
+        <item>A Wide Selection of Fine Sake</item>
+        <item>Delicate treats to end your meal</item>
     </string-array>
 
     <string-array name="appetizer_items">
-        <item>Something</item>
+        <item>Agedashi Tofu</item>
+        <item>Ebi Sunomono</item>
+        <item>Chawanmushi</item>
+        <item>Gomaae</item>
+        <item>Chicken Karaage</item>
+        <item>Takoyaki</item>
     </string-array>
 
     <string-array name="appetizer_descriptions">
-        <item>Something</item>
+        <item>Fried tofu served in sauce</item>
+        <item>Prawns and sliced veggies served in a vinaigrette sauce</item>
+        <item>Veggies and shiitake mushrooms in an egg custard</item>
+        <item>Spinach and peanut butter medley</item>
+        <item>Fried chicken</item>
+        <item>Octopus in a dough-battered grilled ball</item>
+    </string-array>
+
+    <string-array name="appetizer_full_descriptions">
+        <item>Something nice to say about AGEDASHI TOFU</item>
+        <item>Something nice to say about SUNOMONO</item>
+        <item>Something nice to say about CHAWANMUSHI</item>
+        <item>Something nice to say about GOMAAE</item>
+        <item>Something nice to say about CHICKEN KARAAGE</item>
+        <item>Something nice to say about TAKOYAKI</item>
     </string-array>
 
     <string-array name="soup_salad_items">
-        <item>Something</item>
+        <item>Veggie Miso Soup</item>
+        <item>Clam Miso Soup</item>
+        <item>Pork and White Miso Soup</item>
+        <item>Ahi Tuna Salad</item>
+        <item>Kani Salad</item>
+        <item>Salmon Poke Bowl</item>
     </string-array>
 
     <string-array name="soup_salad_descriptions">
-        <item>Something</item>
+        <item>Vegetarian miso soup</item>
+        <item>Clam miso soup</item>
+        <item>Pork belly miso soup</item>
+        <item>Seared tuna salad</item>
+        <item>Crab salad</item>
+        <item>Salmon poke in a sweet and tangy sauce on rice</item>
+    </string-array>
+
+    <string-array name="soup_salad_full_descriptions">
+        <item>Something nice to say about VEGGIE MISO SOUP</item>
+        <item>Something nice to say about CLAM MISO SOUP</item>
+        <item>Something nice to say about PORK AND WHITE MISO SOUP</item>
+        <item>Something nice to say about AHI TUNA SALAD</item>
+        <item>Something nice to say about KANI SALAD</item>
+        <item>Something nice to say about SALMON POKE BOWL</item>
     </string-array>
 
     <string-array name="rolls_items">
-        <item>Something</item>
+        <item>Avocado Roll</item>
+        <item>Calamari Roll</item>
+        <item>Tuna Roll</item>
+        <item>Rainbow Roll</item>
+        <item>Sunset Roll</item>
+        <item>Philadelphia Roll</item>
+        <item>Volcano Roll</item>
+        <item>Assorted Battera</item>
     </string-array>
 
     <string-array name="rolls_descriptions">
-        <item>Something</item>
+        <item>Avocado and tuna roll with spicy sauce</item>
+        <item>Calamari and salmon deep-fried roll</item>
+        <item>Spicy tuna roll</item>
+        <item>Salmon, seaweed, and cucumber roll</item>
+        <item>Salmon, tuna, red snapper, and cucumber roll</item>
+        <item>Salmon, cream cheese, and avocado roll</item>
+        <item>Assorted fish battera pressed sushi</item>
+    </string-array>
+
+    <string-array name="rolls_full_descriptions">
+        <item>Something nice to say about AVOCADO ROLL</item>
+        <item>Something nice to say about CALAMARI ROLL</item>
+        <item>Something nice to say about TUNA ROLL</item>
+        <item>Something nice to say about RAINBOW ROLL</item>
+        <item>Something nice to say about SUNSET ROLL</item>
+        <item>Something nice to say about PHILADELPHIA ROLL</item>
+        <item>Something nice to say about ASSORTED BATTERA</item>
     </string-array>
 
     <string-array name="sashimi_items">
@@ -76,43 +142,200 @@
         <item>Salmon Roe</item>
     </string-array>
 
+    <string-array name="sashimi_full_descriptions">
+        <item>Something nice to say about BINCHOOOO</item>
+        <item>Something nice to say about SAAAABAAA</item>
+        <item>Something nice to say about BENIII SAKE</item>
+        <item>Something nice to say about BNICHOOOO TOOOOOOORO</item>
+        <item>Something nice to say about MAAAGUROOOOO</item>
+        <item>Something nice to say about HAMAAAAAACHI</item>
+        <item>Something nice to say about KANNNNNPACHIII</item>
+        <item>Something nice to say about HOOOOTATEEEE</item>
+        <item>Something nice to say about OOOOOOOOOOTOROOO</item>
+        <item>Something nice to say about BOTANNNNN EEEEEEEBI</item>
+        <item>Something nice to say about IIIIIKURAAAA</item>
+    </string-array>
+
+    <string-array name="udon_items">
+        <item>Beef</item>
+        <item>Chicken</item>
+        <item>Kitsune</item>
+        <item>Seafood</item>
+        <item>Vegetable</item>
+    </string-array>
+
+    <string-array name="udon_descriptions">
+        <item>Sliced beef</item>
+        <item>Chicken</item>
+        <item>Aburaage</item>
+        <item>Assorted seafood</item>
+        <item>Vegetables</item>
+    </string-array>
+
+    <string-array name="udon_full_descriptions">
+        <item>Something nice to say about beef udon</item>
+        <item>Something nice to say about chicken udon</item>
+        <item>Something nice to say about kitsune udon</item>
+        <item>Something nice to say about seafood udon</item>
+        <item>Something nice to say about vegetable udon</item>
+    </string-array>
+
     <string-array name="dons_items">
-        <item>Something</item>
+        <item>Gyudon</item>
+        <item>Hokkaidon</item>
+        <item>Kaisendon</item>
+        <item>Katsudon</item>
+        <item>Tekkadon</item>
+        <item>Tendon</item>
+        <item>Unadon</item>
     </string-array>
 
     <string-array name="dons_descriptions">
-        <item>Something</item>
+        <item>Beef and onion simmered in a mildly sweet sauce</item>
+        <item>Thinly sliced raw salmon</item>
+        <item>Thinly sliced assorted seafood and sashimi</item>
+        <item>Tonkatsu, breaded deep fried pork cutlet, with egg</item>
+        <item>Thinly sliced raw tuna</item>
+        <item>Tempura, deep fried prawn and vegetables</item>
+        <item>Unagi, grilled eel</item>
+    </string-array>
+
+    <string-array name="dons_full_descriptions">
+        <item>Something nice to say about gyudon</item>
+        <item>Something nice to say about hokkaidon</item>
+        <item>Something nice to say about kaisendon</item>
+        <item>Something nice to say about katsudon</item>
+        <item>Something nice to say about tekkadon</item>
+        <item>Something nice to say about tendon</item>
+        <item>Something nice to say about unadon</item>
     </string-array>
 
     <string-array name="a_la_carte_items">
-        <item>Something</item>
+        <item>Beef Teriyaki</item>
+        <item>Chicken Teriyaki</item>
+        <item>Mentaiko Udon</item>
+        <item>Seafood Yakisoba</item>
+        <item>Tonkatsu</item>
+        <item>Wagyu Steak</item>
     </string-array>
 
     <string-array name="a_la_carte_descriptions">
+        <item>Beef Teriyaki</item>
+        <item>Chicken Teriyaki</item>
+        <item>Mentaiko Udon</item>
+        <item>Seafood Yakisoba</item>
+        <item>Tonkatsu</item>
+        <item>Wagyu Steak</item>
+    </string-array>
+
+    <string-array name="a_la_carte_full_descriptions">
+        <item>Something</item>
+        <item>Something</item>
+        <item>Something</item>
+        <item>Something</item>
+        <item>Something</item>
         <item>Something</item>
     </string-array>
 
     <string-array name="lunch_set_items">
-        <item>Something</item>
+        <item>Set A</item>
+        <item>Set B</item>
+        <item>Set C</item>
+        <item>Set D</item>
     </string-array>
 
     <string-array name="lunch_set_descriptions">
         <item>Something</item>
+        <item>Something</item>
+        <item>Something</item>
+        <item>Something</item>
+    </string-array>
+
+    <string-array name="lunch_set_full_descriptions">
+        <item>Something nice to say about set A</item>
+        <item>Something nice to say about set B</item>
+        <item>Something nice to say about set C</item>
+        <item>Something nice to say about set D</item>
     </string-array>
 
     <string-array name="party_set_items">
-        <item>Something</item>
+        <item>Roll Tray A</item>
+        <item>Roll Tray B</item>
+        <item>Roll Tray C</item>
+        <item>Vegetarian Tray A</item>
+        <item>Vegetarian Tray B</item>
+        <item>Party Tray</item>
     </string-array>
 
     <string-array name="party_set_descriptions">
-        <item>Something</item>
+        <item>40 pieces, $42.00</item>
+        <item>69 pieces, $61.00</item>
+        <item>39 pieces, $46.00</item>
+        <item>30 pieces, $46.00</item>
+        <item>48 pieces, $60.00</item>
+        <item>Assorted, $88.00</item>
+    </string-array>
+
+    <string-array name="party_set_full_descriptions">
+        <item>Spicy Tuna Roll, California Roll, Chopped Scallop Roll,
+            Dynamite Roll, BC Roll and House Roll</item>
+        <item>Tuna Roll, Salmon Roll, Negi Toro Roll, Kappa Roll, Oshinko Roll, California Roll,
+            Spicy Tuna Roll, BC Roll, BC Roll, Dynamite Roll, Chopped Scallop Roll, House Roll,
+            and Futomaki</item>
+        <item>Futomaki, Inari Sushi, BC Roll, California Roll, Dynamite Roll,
+            Chopped Scallop Roll</item>
+        <item>Futomaki, Inari Sushi</item>
+        <item>Futomaki, Inari Sushi, Kappa Roll, Oshinko Roll, Yam Tempura Roll</item>
+        <item>Edamame, Chicken Karaage, Yakisoba, BBQ Short Rib, Prawn Tempura, Yam Tempura,
+            California Roll, BC Roll, Dynamite Roll and Chopped Scallop Roll</item>
     </string-array>
 
     <string-array name="sake_list_items">
-        <item>Something</item>
+        <item>Daiginjo</item>
+        <item>Ginjo</item>
+        <item>Junmai</item>
+        <item>Honjozo</item>
+        <item>Iroiro</item>
     </string-array>
 
     <string-array name="sake_list_descriptions">
-        <item>Something</item>
+        <item>50%, highest grade</item>
+        <item>40%, aromic, with a range of flavours</item>
+        <item>30%, full flavoured</item>
+        <item>30%, light, gentle flavour</item>
+        <item>Misfits</item>
     </string-array>
+
+    <string-array name="sake_list_full_descriptions">
+        <item>Selections: Gold Omachi, Dassai "50"</item>
+        <item>Selections: Gokujo, Kiipon</item>
+        <item>Selections: Kagatobi Gokkan</item>
+        <item>Selections: Toji no Banshaku</item>
+        <item>Selections: Dassai Nigori, Yauemon Shuawa</item>
+    </string-array>
+
+    <string-array name="desserts_items">
+        <item>Raspberry Almond Gateau</item>
+        <item>Strawberry Cheesecake</item>
+        <item>Matcha Mousse Cake</item>
+    </string-array>
+
+    <string-array name="desserts_descriptions">
+        <item>Raspberry Almond Gateau</item>
+        <item>Strawberry Cheesecake</item>
+        <item>Matcha Mousse Cake</item>
+    </string-array>
+
+    <string-array name="desserts_full_descriptions">
+        <item>Something nice to say about RASPBPERRY ALMOND GATEAU</item>
+        <item>Something nice to say about STRAWBERRY CHEESECAKE</item>
+        <item>Something nice to say about MATCHAAAAAA MOUSSE CAKE</item>
+    </string-array>
+    <string name="title_activity_home">Home</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
 </resources>

@@ -8,7 +8,7 @@ import android.widget.BaseAdapter;
 import android.widget.TextView;
 
 /**
- * Created by shasha on 2017-12-17.
+ * Created by ShashaHua on 2017-12-17.
  */
 
 public class ItemAdapter extends BaseAdapter {
@@ -16,6 +16,9 @@ public class ItemAdapter extends BaseAdapter {
     LayoutInflater mInflater;
     String[] items;
     String[] descriptions;
+
+    public ItemAdapter() {
+    }
 
     public ItemAdapter(Context c, String[] items, String[] descriptions) {
         this.items = items;
