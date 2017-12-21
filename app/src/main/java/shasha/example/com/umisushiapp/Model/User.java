@@ -6,31 +6,31 @@ package shasha.example.com.umisushiapp.Model;
 
 public class User {
 
-    private String Name;
-    private String Password;
+    private String name;
+    private String password;
 
     public User() {
 
     }
 
-    public User(String name, String password) {
-        Name = name;
-        Password = password;
+    public User(String Pname, String Ppassword) {
+        name = Pname;
+        password = Ppassword;
     }
 
     public String getName() {
-        return Name;
+        return name;
     }
 
-    public void setName(String name) {
-        Name = name;
+    public void setName(String Pname) {
+        name = Pname;
     }
 
     public String getPassword() {
-        return Password;
+        return password;
     }
 
-    public void setPassword(String password) {
-        Password = password;
+    public void setPassword(String Ppassword) {
+        password = Ppassword;
     }
 }

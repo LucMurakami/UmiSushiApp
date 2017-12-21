@@ -37,7 +37,6 @@ public class SubMenus extends AppCompatActivity {
             items = res.getStringArray(item);
             descriptions = res.getStringArray(description);
 
-            ItemAdapter item = new ItemAdapter();
 
             ItemAdapter itemAdapter = new ItemAdapter(this, items, descriptions);
             myListView.setAdapter(itemAdapter);
