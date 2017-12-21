@@ -135,6 +135,8 @@ public class Home extends AppCompatActivity
 
         } else if (id == R.id.nav_cart) {
 
+        } else if (id == R.id.nav_orders) {
+
         } else if (id == R.id.nav_log_out) {
 
         }
