@@ -32,6 +32,8 @@
             android:label="@string/title_activity_home"
             android:theme="@style/AppTheme.NoActionBar">
         </activity>
-    </application>
+        <activity android:name=".SignUp">
+        </activity>
+</application>
 
 </manifest>

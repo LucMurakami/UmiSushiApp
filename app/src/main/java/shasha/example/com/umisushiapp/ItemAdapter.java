@@ -5,6 +5,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.BaseAdapter;
+import android.widget.ImageView;
 import android.widget.TextView;
 
 /**
@@ -46,6 +47,7 @@ public class ItemAdapter extends BaseAdapter {
         View v = mInflater.inflate(R.layout.my_listview_detail, null);
         TextView nameTextView = (TextView) v.findViewById(R.id.nameTextView);
         TextView descriptionTextView = (TextView) v.findViewById(R.id.descriptionTextView);
+        ImageView itemImage = (ImageView) v.findViewById(R.id.imageViewItem);
 
         String name = items[i];
         String desc = descriptions[i];
