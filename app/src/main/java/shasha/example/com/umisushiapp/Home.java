@@ -1,5 +1,6 @@
 package shasha.example.com.umisushiapp;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
@@ -94,7 +95,9 @@ public class Home extends AppCompatActivity
                 viewHolder.setItemClickListener(new ItemClickListener() {
                     @Override
                     public void onClick(View view, int position, boolean isLongClick) {
-                        Toast.makeText(Home.this, "" + clickItem.getName(), Toast.LENGTH_SHORT).show();
+                        Intent showSubMenu = new Intent(getApplicationContext(), SubMenus.class);
+                        showSubMenu.putExtra("shasha.example.com.ITEM_INDEX", position);
+                        startActivity(showSubMenu);
                     }
                 });
             }
@@ -134,6 +137,8 @@ public class Home extends AppCompatActivity
         if (id == R.id.nav_menu) {
 
         } else if (id == R.id.nav_cart) {
+
+        } else if (id == R.id.nav_orders) {
 
         } else if (id == R.id.nav_log_out) {
 

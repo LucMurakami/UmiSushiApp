@@ -27,19 +27,19 @@ public class Login extends AppCompatActivity {
         Typeface face = Typeface.createFromAsset(getAssets(), "fonts/Nabila.ttf");
         txtSlogan.setTypeface(face);
 
-        btnSignIn.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-
-            }
-        });
-
-        btnSignUp.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-
-            }
-        });
+//        btnSignIn.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View view) {
+//
+//            }
+//        });
+//
+//        btnSignUp.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View view) {
+//
+//            }
+//        });
 
         btnSignIn.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -49,6 +49,13 @@ public class Login extends AppCompatActivity {
             }
         });
 
+        btnSignUp.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent signUp = new Intent(Login.this,SignUp.class);
+                startActivity(signUp);
+            }
+        });
 
     }
 }

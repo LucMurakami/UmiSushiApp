@@ -26,7 +26,7 @@ public class DetailActivity extends AppCompatActivity {
 
         if (index > -1) {
             int pic = getImgIdentifier(identifier, index);
-            ImageView img = (ImageView) findViewById(R.id.imageView);
+            ImageView img = (ImageView) findViewById(R.id.imageViewItem);
             scaleImg(img, pic);
             descriptions = res.getStringArray(getDescriptionIdentifier(identifier, index));
             TextView description = (TextView) findViewById(R.id.textViewDescription);
